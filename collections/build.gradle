@@ -15,8 +15,8 @@ ext {
 
     libraryDescription = 'Unmodifiable and immutable java collections that ensure compile-time correctness by not offering mutable operations (like the default java unmodifiable classes).'
 
-    siteUrl = 'https://github.com/mholzel/collections'
-    gitUrl = 'https://github.com/mholzel/collections.git'
+    siteUrl = 'https://github.com/jeti/collections'
+    gitUrl = 'https://github.com/jeti/collections.git'
 
     libraryVersion = '1.0.0'
 
