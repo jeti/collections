@@ -1,1 +1,1 @@
-# Unmodifiable and Imuutable Java Collections
+# Unmodifiable and Immutable Java Collections
