@@ -34,5 +34,5 @@ ext {
 }
 
 //These two remote files contain Bintray configuration as described above.
-apply from: 'https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle'
-apply from: 'https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/jeti/jcenter/master/install.gradle'
+apply from: 'https://raw.githubusercontent.com/jeti/jcenter/master/bintray.gradle'
