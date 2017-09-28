@@ -1,16 +1,15 @@
-apply plugin: 'java'
+apply plugin: 'java-library'
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 }
 
 ext {
 
-    bintrayRepo = 'java'
+    bintrayRepo = 'io'
     bintrayName = 'collections'
 
-    publishedGroupId = 'io.jeti.collections'
+    publishedGroupId = 'io.jeti'
     libraryName = 'collections'
     artifact = 'collections'
 
@@ -21,11 +20,11 @@ ext {
 
     libraryVersion = '1.0.0'
 
-    developerId = 'mholzel'
+    developerId = 'jeti'
     developerName = 'Matthew Holzel'
     developerEmail = 'matthew.holzel@gmail.com'
 
-    organization = 'mholzel'
+    organization = 'jeti'
 
     licenseName = 'The Apache Software License, Version 2.0'  //Example for license
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
