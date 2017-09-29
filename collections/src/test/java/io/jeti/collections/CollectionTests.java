@@ -9,8 +9,8 @@ import org.junit.Test;
 
 public class CollectionTests {
 
-    private java.util.Collection<String> collection;
-    private java.util.Collection<String> collectionCopy;
+    private java.util.Collection<String>    collection;
+    private java.util.Collection<String>    collectionCopy;
 
     private Unmodifiable.Collection<String> ucollection;
 
@@ -69,9 +69,9 @@ public class CollectionTests {
      * Fill the specified container with the test data.
      */
     private void fill(java.util.Collection<String> container) {
-        collection.add("Bob");
-        collection.add("Nancy");
-        collection.add("Tim");
+        container.add("Bob");
+        container.add("Nancy");
+        container.add("Tim");
     }
 
     public void contains() throws Exception {
@@ -99,7 +99,7 @@ public class CollectionTests {
         assertTrue(collection.size() == icollection.size());
         collection.remove("Bob");
         assertTrue(collection.size() == ucollection.size());
-        assertTrue(collection.size() == icollection.size()-1);
+        assertTrue(collection.size() == icollection.size() - 1);
         collection.clear();
         assertTrue(collection.size() == ucollection.size());
         assertTrue(collectionCopy.size() == icollection.size());
